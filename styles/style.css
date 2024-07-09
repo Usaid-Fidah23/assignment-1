@@ -220,6 +220,51 @@
     text-decoration: none;
     color: rgb(13, 19, 33);
 }
+/* inspiration section starts */
+
+.inspiration-sec-container{
+    width: 1140px;
+    height: 775px;
+    
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 170px;
+    
+}
+.inspiration-sec-container h1{
+    color: rgb(13, 19, 33);
+   font-family: Azeret Mono;
+   font-size: 32px;
+   font-weight: 800;
+   margin-bottom: 24px;
+}
+.inspiration-sec-container p{
+    color: rgba(13, 19, 33, 0.719);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+.vid-container{
+    width: 1140px;
+    height: 614px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+.inspiration-text{
+    width: 852px;
+    height: 113px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+
+    
+    
+
+
+
+
 
 
 
