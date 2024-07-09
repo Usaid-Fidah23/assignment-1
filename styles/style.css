@@ -250,7 +250,7 @@
     height: 614px;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
-    margin: 0 auto;
+   
 }
 .inspiration-text{
     width: 852px;
@@ -259,9 +259,129 @@
     margin-bottom: 30px;
 }
 
+/* current target styles starts here */
 
+.current-target-container{
+    width: 1140px;
+    height: 463px;
+    margin: 0 auto;
+    margin-top: 149px;
+}
+.current-target-heading{
+    width: 852px;
+    height: 115px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 48px;
+}  
+.current-target-heading h1{
+    color: rgba(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}  
+.current-target-heading p{
+    color: rgba(13, 19, 33, 0.699);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+.current-target-icons-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+.html{
+    width: 284px;
+    height: 220px;
+    padding-left: 40px;
+    border-radius: 16px;
+    background: rgba(255, 75, 30, 0.05);
+}
+.css{
+    width: 284px;
+    height: 220px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.java{
+    width: 300px;
+    height: 200px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+.html h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+.css h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+} 
+.java h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
     
-    
+}  
+.html p{
+    color: rgba(13, 19, 33, 0.699);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}  
+.css p{
+    color: rgba(13, 19, 33, 0.699);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+} 
+.java p{
+    color: rgba(13, 19, 33, 0.699);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.java a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+}
+.html a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+}                
+.css a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+}   
+.html img{
+    margin-bottom: 32px;
+} 
+.css img{
+    margin-bottom: 32px;
+}     
+.java img{
+    margin-bottom: 32px;
+}  
+   
 
 
 
