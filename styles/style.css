@@ -51,3 +51,80 @@
     font-size: 20px;
     font-weight: 600;
 }
+
+/* web development section styles starts here */
+.web-dev-section-container{
+    width: 946px;
+    height: 1233px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 154px;
+}
+.web-dev-top-section{
+    width: 852px;
+    height: 113px;
+    margin: 0 auto;
+    text-align: center;
+}
+.web-dev-top-section h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.web-dev-top-section p{
+    color: rgba(13, 19, 33, 0.705);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.web-dev-first-content{
+    display: flex;
+    gap: 150px;
+    margin-top: 96px;
+    text-align: left;
+   
+}
+.first-content-text{
+    margin-left: 40px;
+    
+
+
+}
+.first-content-text h2{
+    width: 450px;
+    height: 72px;
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+.first-content-text p{
+    color: rgba(13, 19, 33, 0.699);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 400;
+    width: 450px;
+    height: 52px;
+    
+}
+.first-content-text button{
+    padding: 11px 18px 11px 18px;
+    margin-top: 44px;
+    
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+}
+.first-content-text button a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+}
+.first-content-img{
+    margin-right: 5px;
+}
