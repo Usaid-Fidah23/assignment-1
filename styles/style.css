@@ -56,7 +56,7 @@
 .web-dev-section-container{
     width: 946px;
     height: 1233px;
-    border: 1px solid black;
+    
     margin: 0 auto;
     margin-top: 154px;
 }
@@ -85,6 +85,7 @@
     gap: 150px;
     margin-top: 96px;
     text-align: left;
+    margin-bottom: 120px;
    
 }
 .first-content-text{
@@ -128,3 +129,98 @@
 .first-content-img{
     margin-right: 5px;
 }
+
+.web-div-mid-section{
+    width: 850px;
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
+    
+    
+}
+.mid-section-img{
+    width: 223.2px;
+    height: 208.85px;
+    margin-right: 50px;
+}
+.mid-section-text h2{
+    width: 477px;
+    height: 72px;
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+}
+.mid-section-text p{
+    color: rgba(13, 19, 33, 0.699);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 400;
+    width: 450px;
+    height: 52px;
+    margin-bottom: 15px;
+}
+.mid-section-text button{
+    padding: 11px 18px 11px 18px;
+    margin-top: 44px;
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+}
+.mid-section-text{
+    margin-top: 10px;
+    text-align: left;
+    margin-right: 150px;
+    
+}
+.mid-section-text button a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+}
+.last-section-container{
+    width: 850px;
+    height: 240px;
+    
+    margin: 0 auto;
+    margin-top: 128px;
+    display: flex;
+    justify-content: space-between;
+}
+.last-section-text h2{
+    width: 477px;
+    height: 72px;
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.last-section-text p{
+    color: rgba(13, 19, 33, 0.699);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 400;
+    width: 450px;
+    height: 52px;
+    margin-bottom: 15px;
+}
+.last-section-text button{
+    padding: 11px 18px 11px 18px;
+    
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+
+}
+.last-section-text button a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+}
+
+
+
+
