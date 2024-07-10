@@ -337,7 +337,7 @@
     width: 300px;
     height: 200px;
     border-radius: 16px;
-    background: rgba(255, 223, 0, 0.05);
+    background: rgba(255, 221, 0, 0.05);
 }
 .html h2{
     color: rgb(13, 19, 33);
@@ -673,6 +673,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
+    margin-bottom: 30px;
     
 }
 .footer-sec-text{
@@ -692,6 +693,7 @@
     height: 36px;
     display: flex;
     justify-content: space-between
+    
 }
 
    
