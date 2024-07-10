@@ -387,9 +387,8 @@
 .support-sec-container{
     width: 1140px;
     height: 314px;
-    border: 1px solid red;
     margin: 0 auto;
-    margin-top: 60px;
+    margin-top:80px;
     margin-bottom: 80px;
     border-radius: 16px;
     border-radius: 16px;
@@ -403,10 +402,12 @@
     height: 186px;
     
     margin: 0 auto;
-    margin-top: 64px;
+   padding-top: 70px;
+
 }
 .support-sec-title{
     text-align: center;
+    
 }
 .support-sec-title h2{
     color: rgb(255, 255, 255);
@@ -414,6 +415,7 @@
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 16px;
+    
 }
 .support-sec-title p{
     color: rgba(255, 255, 255, 0.699);
@@ -424,7 +426,6 @@
 .support-sec-input{
     width: 750px;
     height: 58px;
-    
     margin: 0 auto;
     margin-top: 55px;
     display: flex;
@@ -449,8 +450,37 @@
     width: 120px;
     margin-left: 20px;
     padding-right: 20px;
+    padding-left: 20px;
     border-radius: 8px;
     background: rgb(255, 255, 255);
+    border: none;
+}
+/* footer section style starts here */
+.footer-sec-container{
+    width: 1140px;
+    height: 36px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer-sec-text{
+    width: 456px;
+    height: 24px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    margin-top: 8px;
+    
+}
+.footer-sec-text h2{
+    margin-top: 6.5px;
+}
+.footer-sec-icons{
+    width: 157.01px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between
 }
 
    
