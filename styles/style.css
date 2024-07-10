@@ -299,25 +299,26 @@
     height: 115px;
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 48px;
+    margin-bottom: 50px;
 }  
 .current-target-heading h1{
     color: rgba(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }  
 .current-target-heading p{
     color: rgba(13, 19, 33, 0.699);
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
+    
 }
 .current-target-icons-container{
     display: flex;
     justify-content: space-between;
-    margin-top: 120px;
+    margin-top: 70px;
 }
 .html{
     width: 284px;
@@ -408,14 +409,197 @@
 }     
 .java img{
     margin-bottom: 40px;
-}  
+}
+/* next target styles starts here */
+.next-target-container{
+    width: 1140px;
+    height: 871px;
+    
+    
+    margin: 0 auto;
+    margin-top: 100px;
+    
+}
+.next-target-title{
+    width: 946px;
+    height: 115px;
+    margin: 0 auto;
+    text-align: center;
+}
+.next-target-title h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.next-target-title p{
+    color: rgba(13, 19, 33, 0.699);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+.react-container{
+    width: 1140px;
+    height: 220px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-top: 50px;
+    
+}
+.react-content{
+    width: 1060px;
+    height: 140px;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    gap: 25px;
+}
+.react-text{
+    width: 941px;
+    height: 140px;
+
+}
+.react-text h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 18px;
+}
+.react-text p{
+    color: rgba(13, 19, 33, 0.699);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.react-text a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+}
+.react-img{
+    margin-top: 10px;
+    width: 94px;
+    height: 84px;
+    
+}
+.react-img img{
+    width: 100%;
+    height: 100%;
+
+}
+.node-container{
+    width: 1140px;
+    height: 220px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-top: 50px;
+}
+.node-content{
+    width: 1060px;
+    height: 140px;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    gap: 30px;
+}
+.node-text{
+    width: 892px;
+    height: 140px;
+
+}
+.node-text h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 18px;
+}
+.node-text p{
+    color: rgba(13, 19, 33, 0.699);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.node-text a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+}
+.node-img{
+    width: 143px;
+    height: 87px;
+    margin-top: 10px;
+}
+.node-img img{
+    width: 100%;
+    height: 100%;
+}
+.mongo-container{
+    width: 1140px;
+    height: 220px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-top: 50px;
+}
+.mongo-content{
+    width: 1060px;
+    height: 140px;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    gap: 30px;
+}
+.mongo-text{
+    width: 928px;
+    height: 140px;
+}
+.mongo-text h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 18px;
+}
+.mongo-text p{
+    color: rgba(13, 19, 33, 0.699);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 28px;
+}
+.mongo-text a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+}
+.mongo-img{
+    width: 108px;
+    height: 108px;
+    
+}
+.mongo-img img{
+    width: 100%;
+    height: 100%;
+}
+
+
 /* support section styles start here */
 
 .support-sec-container{
     width: 1140px;
     height: 314px;
     margin: 0 auto;
-    margin-top:80px;
+    margin-top:150px;
     margin-bottom: 80px;
     border-radius: 16px;
     border-radius: 16px;
@@ -488,6 +672,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    margin-top: 80px;
     
 }
 .footer-sec-text{
