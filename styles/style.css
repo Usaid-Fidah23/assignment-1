@@ -316,20 +316,21 @@
     font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 800;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
 .css h2{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 800;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 } 
 .java h2{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 800;
+    margin-bottom: 12px;
     
 }  
 .html p{
@@ -337,21 +338,21 @@
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 24px;
+    margin-bottom: 30px;
 }  
 .css p{
     color: rgba(13, 19, 33, 0.699);
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 24px;
+    margin-bottom: 30px;
 } 
 .java p{
     color: rgba(13, 19, 33, 0.699);
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-top: 10px;
 }
 .java a{
@@ -373,14 +374,85 @@
     font-weight: 700;
 }   
 .html img{
-    margin-bottom: 32px;
+    margin-bottom: 40px;
 } 
 .css img{
-    margin-bottom: 32px;
+    margin-bottom: 40px;
 }     
 .java img{
-    margin-bottom: 32px;
+    margin-bottom: 40px;
 }  
+/* support section styles start here */
+
+.support-sec-container{
+    width: 1140px;
+    height: 314px;
+    border: 1px solid red;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    border-radius: 16px;
+    border-radius: 16px;
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.support-sec-content{
+    width: 1044px;
+    height: 186px;
+    
+    margin: 0 auto;
+    margin-top: 64px;
+}
+.support-sec-title{
+    text-align: center;
+}
+.support-sec-title h2{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.support-sec-title p{
+    color: rgba(255, 255, 255, 0.699);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+.support-sec-input{
+    width: 750px;
+    height: 58px;
+    
+    margin: 0 auto;
+    margin-top: 55px;
+    display: flex;
+    
+}
+.support-sec-input input{
+    width: 548px;
+    height: 57px;
+    padding-left: 20px;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+}
+#submit-btn{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    width: 120px;
+    margin-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
    
 
 
